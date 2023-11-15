@@ -62,7 +62,7 @@ public class Level2 {
 				.skip(1)
 				.findFirst().orElse(null);
 		if (secondEmployee != null) {
-			System.out.println("Second employee whose name starts with 's': " + secondEmployee);
+			System.out.println("Second employee's name starts with 's': " + secondEmployee);
 		}
 	}
 }
